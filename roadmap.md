@@ -1,0 +1,10 @@
+- [x] finish json encoder/decoder for Movie Ranking object.
+    - Movie Ranking object is a simplified Movie object that only contains neccessary information to display the movie ranking
+- [x] finish json encoder/decoder for Movie object.
+    - Detailed with all information
+- [x] finsh lambda handler for crawling a movie
+    - [] remember to add "newest-nth-day" to Metadata
+- [] finish lambda lambda for crawling movie ranking for a given date
+    - [x] crawl ranking
+    - [x] check if movie detail is already in S3, if not, send a request to SQS
+    - [] implement recurrent mechanism for crawling older day's ranking.
